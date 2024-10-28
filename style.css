@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#game-area {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    background-color: #444;
+    border: 2px solid #fff;
+}
+
+#player, #kebab, #zombie {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+
+#player {
+    background-color: #0f0;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#kebab {
+    background-color: #ff0;
+}
+
+#zombie {
+    background-color: #f00;
+}
+
+#score-board {
+    margin-top: 20px;
+}
